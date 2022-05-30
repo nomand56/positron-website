@@ -1,0 +1,22 @@
+.pstrn__header{
+    display: flex;
+    flex-direction: row;
+}
+
+.pstrn_main-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+
+}
+.pstrn__gradient {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+color: var(--gradient-text)
+}
